@@ -35,8 +35,15 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 ## Curriculum Overview
 
 Fast***, SpartaCo*** 등등 커리큘럼 비교
-FreeCodeCamp 로 대체
-기초 문법 / 서버 연동 / 데이터, UI 관리 / 과제 / 안정적인 애플리케이션 / 서버 구축 / Javascript Deep Dive
+
+=> FreeCodeCamp 로 대체
+
+기초 문법 먼저 FreeCodeCamp로 떼고
+
+- 서버 연동 (Ajax Fundermental)
+- 데이터, UI 관리 (State management / 단일 스토어 패턴 / Service-Oriented, etc...)
+- 과제 (FreeCodeCamp 과제 / 클론코딩 / 업체 과제 스타일 - API 내주고 UI 구현하기) 
+- 안정적인 애플리케이션 (TypeScript, 테스트 코드 작성법 및 용도 구분 - Unit / Integration / E2E) / 서버 구축 / Javascript Deep Dive
 
 ## 학습 전략 선정
 
