@@ -46,4 +46,11 @@ FreeCodeCamp 로 대체
 
 ## FreeCodeCamp
 
-lorem lorem lorem
+
+## Questions 
+
+- 학습자별 Learning Curve 맞추기
+- 개인 공부로 어느 정도까지 커버해야 하는지?
+- FreeCodeCamp 커리큘럼도 약간 가지치기가 필요할(모두 다 할 필요 없고 살짝 체리피킹 해도 괜찮을..)것 같은데 어떻게 생각하는지?
+
+## Action Plan
