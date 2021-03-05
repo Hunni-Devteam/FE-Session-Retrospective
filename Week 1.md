@@ -4,13 +4,13 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 
 ## Philosophy Alignment
 
-### 웹 개발, 가장 적은 공부량으로 생색내기 쉬운 분야다
-
-### 프론트엔드라면 언어를 배우기 전에 브라우저와 친해져야 한다 
-
 - 배우는 사람이 잘 배우는 게 중요하다(Followship)
 - 생활 습관, 이 시간에 무언가 한다는게 중요하다
 - 결국 개발자가 된다는건 뭔가 찾아보는 습관이 드는 거고.. 배우는 게 익숙해지는 것이 아닌가 생각해봅니다.
+
+### 웹 개발, 가장 적은 공부량으로 생색내기 쉬운 분야다
+
+### 프론트엔드라면 언어를 배우기 전에 브라우저와 친해져야 한다 
 
 ### 과제 생각없이 많이 하는 것보다, 기반 지식을 제대로 가져가는게 중요하다
 (HTML, CSS, JS Fundermentals / Javascript Core)
