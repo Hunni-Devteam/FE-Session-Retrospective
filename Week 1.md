@@ -4,7 +4,7 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 
 ## Philosophy Alignment
 
-- 배우는 사람이 잘 배우는 게 중요하다(Followship)
+- 배우는 사람이 잘 배우는 게 중요하다(Followrship)
 - 생활 습관, 이 시간에 무언가 한다는게 중요하다
 - 결국 개발자가 된다는건 뭔가 찾아보는 습관이 드는 거고.. 배우는 게 익숙해지는 것이 아닌가 생각해봅니다.
 
