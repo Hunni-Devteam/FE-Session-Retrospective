@@ -12,7 +12,8 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 - 생활 습관, 이 시간에 무언가 한다는게 중요하다
 - 결국 개발자가 된다는건 뭔가 찾아보는 습관이 드는 거고.. 배우는 게 익숙해지는 것이 아닌가 생각해봅니다.
 
-### 과제 생각없이 많이 하는 것보다, 기반 지식을 제대로 가져가는게 중요하다 (HTML, CSS, JS Fundermentals / Javascript Core)
+### 과제 생각없이 많이 하는 것보다, 기반 지식을 제대로 가져가는게 중요하다
+(HTML, CSS, JS Fundermentals / Javascript Core)
 
 ## OKR 선정
 
@@ -78,7 +79,7 @@ Fast***, SpartaCo*** 등등 커리큘럼 비교
 안 쓰는 요소들이라고 해도 왜 안 쓰게 됬는지 History tracking 하는 차원에서 설명하는 건 좋다고 생각한다.
 
 - 이거 2~3개월가지고 턱도 없을 것 같은데 어떻게 생각하는지?
-- 
+
 : 그렇다. 학습 패턴과 습관을 가지고 계속 가는 게 중요하지 싶기도 하다... 모든 커리큘럼이 정해진 시간에 정해지지 않은 사람들을 트레이닝할 수는 없다고 생각한다.
 
 ## Action Plan
