@@ -1,3 +1,35 @@
+
+# (배웠던 것 / 수업 피드백 / 본인 피드백)
+
+## 이번 주에 잘 된 것 
+
+- 수업을 진행했다....
+- 타임키핑이 잘 이루어졌다
+- 진도 분배가 원활하게 이루어졌다
+
+## 이번 주에 아쉬웠던 것
+
+- 수업의 진행속도가 너무 빨라 쫓아오기 힘들었다는 피드백
+
+## Action Plan (어떻게할거야?)
+
+- 천천히 (시간을 들여서, 이해할 때까지 조금 더 피드백)
+- 물어보면서 (상호 작용 원활하게)
+- 논리 도약 (당연히 알겠지 ㄴㄴ)
+
+## Timeline
+
+### 월 Orientation
+
+### 화 Basic HTML and HTML5
+
+### 수 Basic CSS
+
+### 목 휴식
+
+### 금 Applied Visual Design (1/2)
+
+
 # Day 1 - Orientation
 
 https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ_5A/edit?usp=sharing
@@ -82,4 +114,3 @@ Fast***, SpartaCo*** 등등 커리큘럼 비교
 
 : 그렇다. 학습 패턴과 습관을 가지고 계속 가는 게 중요하지 싶기도 하다... 모든 커리큘럼이 정해진 시간에 정해지지 않은 사람들을 트레이닝할 수는 없다고 생각한다.
 
-## Action Plan
