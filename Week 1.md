@@ -17,6 +17,23 @@
 - 물어보면서 (상호 작용 원활하게)
 - 논리 도약 (당연히 알겠지 ㄴㄴ)
 - 복습을 하자..
+- Section 단위로 회고를 진행해보자. (1주 X)
+
+## Questions 
+
+- 학습자별 Learning Curve 맞추기
+- 개인 공부로 어느 정도까지 커버해야 하는지?
+- FreeCodeCamp 커리큘럼도 약간 가지치기가 필요할(모두 다 할 필요 없고 살짝 체리피킹 해도 괜찮을..)것 같은데 어떻게 생각하는지?
+
+: 맞다. 그냥 타이핑 연습한다 치고 해보는 것도 나쁘지 않을 듯 한데...
+
+이거 다 채우면 Certification 주는 걸로 알아서, 이력서 Educations 탭에 한줄 추가할 겸 다 하는 게 어떤가 고민중.
+
+안 쓰는 요소들이라고 해도 왜 안 쓰게 됬는지 History tracking 하는 차원에서 설명하는 건 좋다고 생각한다.
+
+- 이거 2~3개월가지고 턱도 없을 것 같은데 어떻게 생각하는지?
+
+: 그렇다. 학습 패턴과 습관을 가지고 계속 가는 게 중요하지 싶기도 하다... 모든 커리큘럼이 정해진 시간에 정해지지 않은 사람들을 트레이닝할 수는 없다고 생각한다.
 
 ## Timeline
 
@@ -30,8 +47,7 @@
 
 ### 금 Applied Visual Design (1/2)
 
-
-# Day 1 - Orientation
+# Orientation ++
 
 https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ_5A/edit?usp=sharing
 
@@ -98,20 +114,3 @@ Fast***, SpartaCo*** 등등 커리큘럼 비교
 - Front End Development Libraries Certification
 
 3개 이수 예정
-
-## Questions 
-
-- 학습자별 Learning Curve 맞추기
-- 개인 공부로 어느 정도까지 커버해야 하는지?
-- FreeCodeCamp 커리큘럼도 약간 가지치기가 필요할(모두 다 할 필요 없고 살짝 체리피킹 해도 괜찮을..)것 같은데 어떻게 생각하는지?
-
-: 맞다. 그냥 타이핑 연습한다 치고 해보는 것도 나쁘지 않을 듯 한데...
-
-이거 다 채우면 Certification 주는 걸로 알아서, 이력서 Educations 탭에 한줄 추가할 겸 다 하는 게 어떤가 고민중.
-
-안 쓰는 요소들이라고 해도 왜 안 쓰게 됬는지 History tracking 하는 차원에서 설명하는 건 좋다고 생각한다.
-
-- 이거 2~3개월가지고 턱도 없을 것 같은데 어떻게 생각하는지?
-
-: 그렇다. 학습 패턴과 습관을 가지고 계속 가는 게 중요하지 싶기도 하다... 모든 커리큘럼이 정해진 시간에 정해지지 않은 사람들을 트레이닝할 수는 없다고 생각한다.
-
