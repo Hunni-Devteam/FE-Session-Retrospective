@@ -38,15 +38,17 @@
 
 ## Timeline
 
-### 월 Orientation
+### 3/1 (월) Orientation
 
-### 화 Basic HTML and HTML5
+### 3/2 (화) Basic HTML and HTML5
 
-### 수 Basic CSS
+### 3/3 (수) Basic CSS
 
-### 목 휴식 (정규상 핸드폰 잃어버림)
+### 3/4 (목) 휴식 (정규상 핸드폰 잃어버림)
 
-### 금 Applied Visual Design (1/2)
+### 3/5 (금) Applied Visual Design (1/2)
+
+### 3/6 (토) 회고 방식 논의
 
 # Orientation ++
 
