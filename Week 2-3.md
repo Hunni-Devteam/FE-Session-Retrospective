@@ -9,13 +9,37 @@
 
 ## 이번 스프린트에서 아쉬웠던 것
 
-- 이번주 생활패턴 관리 안되어 
-- 업무(실무) 퍼포먼스에 영향을 줄 수 있는
+- 3월 2주차 생활패턴 관리 안되어 화요일 자습으로 때움
+- 업무(실무) 퍼포먼스에 영향을 줄 수 있다는 걱정이 들기도 함 (나도 아직 수습기간이 안끝났는뎅,.,.)
+- 수업 진행 태도를 조금더 견고하게 가져갈 필요가 있음
  
 ## Action Plan
 
-- 개선해줬으면 좋을 것 / 개선하고 싶은 것 / 더 배우고 싶은 것.
+- 5분 전에 깨서 졸음 쫓아내고 진행했으면 좋겠다.
 
-# What I do?
+# What we do?
 
-Applied Visual Design (2/2)
+#### 3/8 (월)
+- Applied Visual Design (2/2)
+#### 3/9 (화) 
+- Applied Accessibility
+- Responsive Web Design Principles
+#### 3/10 (수)
+- CSS Flexbox / Grid
+- Tribute Page(1번) 과제 시작
+#### 3/11 (목)
+- Tribute Page(1번) 과제 피드백
+- Survey Form(2번) 과제 시작
+#### 3/12 (금)
+- 너무 피곤해서 잠 / 정규상 술마심
+#### 3/13 (토)
+- Survey Form(2번) 과제 자습
+#### 3/15 (월)
+- Survey Form(2번) 과제 피드백
+- Product Landing Page (3번) 과제 진행 및 피드백
+#### 3/16 (화)
+- Technical Documentation Page(4번) / Personal Portfolio Page(5번) 과제 자습 (강훈 야근)
+#### 3/17 (수)
+- Technical Documentation Page(4번) / Personal Portfolio Page(5번) 과제 피드백
+#### 3/18 (목)
+- 회고 진행중!
