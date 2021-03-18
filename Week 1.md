@@ -44,7 +44,7 @@
 
 ### 수 Basic CSS
 
-### 목 휴식
+### 목 휴식 (정규상 핸드폰 잃어버림)
 
 ### 금 Applied Visual Design (1/2)
 
