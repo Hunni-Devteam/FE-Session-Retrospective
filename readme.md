@@ -11,4 +11,4 @@ https://github.com/scvgood287/Learned
 
 ### 정규상
 
-https://github.com/Carrymachine/Carrymachine
+https://github.com/Carrymachine/FE-Session-Retrospective
