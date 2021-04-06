@@ -17,7 +17,7 @@
 
 - 5분 전에 깨서 졸음 쫓아내고 진행했으면 좋겠다.
 
-# What we do?
+# What we did?
 
 #### 3/8 (월)
 - Applied Visual Design (2/2)
