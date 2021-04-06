@@ -24,18 +24,18 @@
 
 # What we did?
 
-### 2021.03.24 - JS Basic Syntax
-### 2021.03.25 - JS Array, Scope
-### 2021.03.26 - JS Comparison, 
-### 2021.03.27 - 다 같이 술마심
-### 2021.03.28 - 일요일 편히 쉬어-!
-### 2021.03.29 - if/else/switch/case, Counting Card, JS Objects
-### 2021.03.30 - 강훈쌤 약속
-### 2021.03.31 - 본인 Counting Card Variant 문제풀이, 피드백
-### 2021.04.01 - JS Object (따로 문서 작성 예정)
-### 2021.04.02 - 훈쌤집에서 수업하기로 해놓고 훈쌤의 "잭콕 한잔씩만 먹자" 이니시에이팅 걸려서 다같이 술먹고 pc방감
-### 2021.04.03 - 분명 술먹으면서 내일 하자고 해놓고 이날 8시 반부터 기다렸는데 아무도 연락이 없음
-### 2021.04.04 - 일요일 편히 쉬어-!
-### 2021.04.05 - JS Loops (for , while , do-while , Nesting for) , Recursion , Math , parseInt , Conditional Operator
+### 2021.03.24 Wed - JS Basic Syntax
+### 2021.03.25 Thu - JS Array, Scope
+### 2021.03.26 Fri - JS Operators, Comparison
+### 2021.03.27 Sat - 다 같이 술마심
+### 2021.03.28 Sun - 일요일
+### 2021.03.29 Mon - if/else/switch/case, Counting Card, JS Objects
+### 2021.03.30 Tue - 본인 약속
+### 2021.03.31 Wed - 정규상 Counting Card Variant 문제풀이, 피드백
+### 2021.04.01 Thu - JS Object (따로 문서 작성 예정)
+### 2021.04.02 Fri - 본인 집에서 수업하기로 했는데 "잭콕 한잔씩만 먹자" 시전해버려서 다같이 술먹고 pc방감
+### 2021.04.03 Sat - 술먹으면서 내일 하자고 해놓고 농땡이침(...)
+### 2021.04.04 Sun - 일요일 편히 쉬어-!
+### 2021.04.05 Mon - JS Loops (for , while , do-while , Nesting for) , Recursion , Math , parseInt , Conditional Operator
 ### -----------------------------------------------JS Basic End-------------------------------------------------------
-### 2021.04.06 - ES6 Introduction + Basic Javascript Retrospective
+### 2021.04.06 Tue - ES6 Introduction + Basic Javascript Retrospective
