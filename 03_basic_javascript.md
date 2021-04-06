@@ -29,13 +29,13 @@
 #### 2021.03.26 Fri - JS Operators, Comparison
 #### 2021.03.27 Sat - 다 같이 술마심
 #### 2021.03.28 Sun - 일요일
-#### 2021.03.29 Mon - if/else/switch/case, Counting Card, JS Objects
+#### 2021.03.29 Mon - Conditional Statements (if, switch), Array, Counting Card 과제
 #### 2021.03.30 Tue - 본인 약속
 #### 2021.03.31 Wed - 정규상 Counting Card Variant 문제풀이, 피드백
-#### 2021.04.01 Thu - JS Object (따로 문서 작성 예정)
+#### 2021.04.01 Thu - Object, Record Collection, Profile Lookup 과제
 #### 2021.04.02 Fri - 본인 집에서 수업하기로 했는데 "잭콕 한잔씩만 먹자" 시전해버려서 다같이 술먹고 pc방감
 #### 2021.04.03 Sat - 술먹으면서 내일 하자고 해놓고 농땡이침(...)
-#### 2021.04.04 Sun - 일요일 편히 쉬어-!
-#### 2021.04.05 Mon - JS Loops (for , while , do-while , Nesting for) , Recursion , Math , parseInt , Conditional Operator
+#### 2021.04.04 Sun - 일요일
+#### 2021.04.05 Mon - JS Loops(for, while, do-while), Recursion, Math, parseInt, Ternary Operator
 #### ----------------------------------------------- End Basic Javascript -------------------------------------------------------
 #### 2021.04.06 Tue - ES6 Introduction + Basic Javascript Retrospective
