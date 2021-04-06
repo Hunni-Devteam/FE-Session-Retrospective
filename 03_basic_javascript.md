@@ -22,20 +22,20 @@
 - 수업시간을 줄였는데 사실 수업 끝나고도 같이 얘기하는 시간 있고, 과제 나오면 코딩하는데 시간이 많이 들어서 어차피 2시간 되는듯
 - 회사 갔다가 평일에 매일 수업하는 건 역시 쉽지 않은 듯함 ㅠ.ㅠ
 
-# What we did?
+## What we did?
 
-### 2021.03.24 Wed - JS Basic Syntax
-### 2021.03.25 Thu - JS Array, Scope
-### 2021.03.26 Fri - JS Operators, Comparison
-### 2021.03.27 Sat - 다 같이 술마심
-### 2021.03.28 Sun - 일요일
-### 2021.03.29 Mon - if/else/switch/case, Counting Card, JS Objects
-### 2021.03.30 Tue - 본인 약속
-### 2021.03.31 Wed - 정규상 Counting Card Variant 문제풀이, 피드백
-### 2021.04.01 Thu - JS Object (따로 문서 작성 예정)
-### 2021.04.02 Fri - 본인 집에서 수업하기로 했는데 "잭콕 한잔씩만 먹자" 시전해버려서 다같이 술먹고 pc방감
-### 2021.04.03 Sat - 술먹으면서 내일 하자고 해놓고 농땡이침(...)
-### 2021.04.04 Sun - 일요일 편히 쉬어-!
-### 2021.04.05 Mon - JS Loops (for , while , do-while , Nesting for) , Recursion , Math , parseInt , Conditional Operator
-### -----------------------------------------------JS Basic End-------------------------------------------------------
-### 2021.04.06 Tue - ES6 Introduction + Basic Javascript Retrospective
+#### 2021.03.24 Wed - JS Basic Syntax
+#### 2021.03.25 Thu - JS Array, Scope
+#### 2021.03.26 Fri - JS Operators, Comparison
+#### 2021.03.27 Sat - 다 같이 술마심
+#### 2021.03.28 Sun - 일요일
+#### 2021.03.29 Mon - if/else/switch/case, Counting Card, JS Objects
+#### 2021.03.30 Tue - 본인 약속
+#### 2021.03.31 Wed - 정규상 Counting Card Variant 문제풀이, 피드백
+#### 2021.04.01 Thu - JS Object (따로 문서 작성 예정)
+#### 2021.04.02 Fri - 본인 집에서 수업하기로 했는데 "잭콕 한잔씩만 먹자" 시전해버려서 다같이 술먹고 pc방감
+#### 2021.04.03 Sat - 술먹으면서 내일 하자고 해놓고 농땡이침(...)
+#### 2021.04.04 Sun - 일요일 편히 쉬어-!
+#### 2021.04.05 Mon - JS Loops (for , while , do-while , Nesting for) , Recursion , Math , parseInt , Conditional Operator
+#### ----------------------------------------------- End Basic Javascript -------------------------------------------------------
+#### 2021.04.06 Tue - ES6 Introduction + Basic Javascript Retrospective
