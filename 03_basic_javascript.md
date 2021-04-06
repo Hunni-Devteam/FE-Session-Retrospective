@@ -39,3 +39,11 @@
 #### 2021.04.05 Mon - JS Loops(for, while, do-while), Recursion, Math, parseInt, Ternary Operator
 #### ----------------------------------------------- End Basic Javascript -------------------------------------------------------
 #### 2021.04.06 Tue - ES6 Introduction + Basic Javascript Retrospective
+
+
+## Refs (Github 파일 이름 바꾸면 링크 깨질 수 있음)
+
+- FreeCodeCamp Link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
+- 정규상 Counting Card 과제 변형 https://github.com/Carrymachine/FE-Session-Retrospective/blob/main/20210331_Counting%20Card%20Variation.md
+- 정규상 JS Retrospective https://github.com/Carrymachine/FE-Session-Retrospective/blob/main/02_JS%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.md
+- 김지유 JS Retrospective https://github.com/scvgood287/Learned/blob/main/20210406.md
