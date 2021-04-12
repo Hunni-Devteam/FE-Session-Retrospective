@@ -56,7 +56,7 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 
 ## Philosophy Alignment
 
-- 배우는 사람이 잘 배우는 게 중요하다(Followrship)
+- 배우는 사람이 잘 배우는 게 중요하다(Followership)
 - 생활 습관, 이 시간에 무언가 한다는게 중요하다
 - 결국 개발자가 된다는건 뭔가 찾아보는 습관이 드는 거고.. 배우는 게 익숙해지는 것이 아닌가 생각해봅니다.
 
@@ -65,7 +65,7 @@ https://docs.google.com/presentation/d/1D_1NF5fm3YD5vRlxTxJbsku9rX7rlfedr38inbeZ
 ### 프론트엔드라면 언어를 배우기 전에 브라우저와 친해져야 한다 
 
 ### 과제 생각없이 많이 하는 것보다, 기반 지식을 제대로 가져가는게 중요하다
-(HTML, CSS, JS Fundermentals / Javascript Core)
+(HTML, CSS, JS Fundamental / Javascript Core)
 
 ## OKR 선정
 
@@ -93,7 +93,7 @@ Fast***, SpartaCo*** 등등 커리큘럼 비교
 
 기초 문법 먼저 FreeCodeCamp로 떼고
 
-- 서버 연동 (Ajax Fundermental)
+- 서버 연동 (Ajax Fundamental)
 - 데이터, UI 관리 (State management / 단일 스토어 패턴 / Service-Oriented, etc...)
 - 과제 (FreeCodeCamp 과제 / 클론코딩 / 업체 과제 스타일 - API 내주고 UI 구현하기) 
 - 안정적인 애플리케이션 (TypeScript, 테스트 코드 작성법 및 용도 구분 - Unit / Integration / E2E) / 서버 구축 / Javascript Deep Dive
