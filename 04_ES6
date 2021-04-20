@@ -5,16 +5,12 @@
 
 ## 좋았던 것
 - 경험(고통...레거시...)에서 비롯된 ES6 이전 문법과 이후 문법에 대해 깊게 살펴주고, 개선된 ES6 문법이 어떤 부분에서 생산성을 올려주는 지 자세히 공유해줬다.
-- Language History Tracking (Callback 구조, 콜백 지옥, 함수 생성자 내부 함수, Javascript 모듈 패턴, Legacy UI Rendering Strategy - HTML 템플릿 스트링 + 연산자로 만들기)
-- 
+- Language History Tracking (Callback 구조, 콜백 지옥, 함수 생성자 내부 함수, Javascript 모듈 패턴, Legacy UI Rendering Strategy - HTML 템플릿을 '', +, 변수 활용해 만드는....."그 방법")
 - 질문 피드백 열심히 해줌.
-
-배운 것 / 수업에서 좋았던 것 / 본인에게서 개선된 점.
+- 100번 하면 된다는 마인드를 잘 따라줘서 고마움.
 
 ## 아쉬웠던 것
-- 
-- 배우면서 힘들었던 것 / 수업 피드백 / 본인 피드백.
-- 
+- 컨디션 관리 (이거 왜 항상 아쉬움..?)
 
 ## What we did?
 
