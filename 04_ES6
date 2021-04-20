@@ -1,1 +1,36 @@
+# 회고 양식 (배웠던 것 / 수업 피드백 / 본인 피드백)
 
+## Lessons Learned
+- 아래 What we did 랑 좀 겹치는듯?
+
+## 좋았던 것
+- 경험(고통...레거시...)에서 비롯된 ES6 이전 문법과 이후 문법에 대해 깊게 살펴주고, 개선된 ES6 문법이 어떤 부분에서 생산성을 올려주는 지 자세히 공유해줬다.
+- Language History Tracking (Callback 구조, 콜백 지옥, 함수 생성자 내부 함수, Javascript 모듈 패턴, Legacy UI Rendering Strategy - HTML 템플릿 스트링 + 연산자로 만들기)
+- 
+- 질문 피드백 열심히 해줌.
+
+배운 것 / 수업에서 좋았던 것 / 본인에게서 개선된 점.
+
+## 아쉬웠던 것
+- 
+- 배우면서 힘들었던 것 / 수업 피드백 / 본인 피드백.
+- 
+
+## What we did?
+
+#### 2021.04.07 수 - 김지유 JS Blackjack 구현체 리뷰
+#### 2021.04.08 목 - Variable(let, const), Arrow Func, Param Default value
+#### 2021.04.09 금 - 정규상 개인사정 수업 X
+#### 2021.04.10 토 - 강훈쌤 운전연습 시켜드림
+#### 2021.04.11 일 - 일요일 편히 쉬어-!
+#### 2021.04.12 월 - Rest Parameter, Spread Operator, Destructuring assingment
+#### 2021.04.13 화 - String Template Literal, Getter/Setter, Class, Module
+#### 2021.04.14 수 - 강훈쌤 방전
+#### 2021.04.15 목 - .js export/import, Promise/async/await
+#### 2021.04.16 금 - 정규상 개인사정 수업 X
+#### 2021.04.17 토 - 
+#### 2021.04.18 일 - 
+#### 2021.04.19 월 - Promise, Debugging
+#### 2021.04.20 화 - ES6 회고록 작성
+
+## Refs (Github 파일 이름 바꾸면 링크 깨질 수 있음)
