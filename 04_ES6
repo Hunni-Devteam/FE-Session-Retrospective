@@ -5,9 +5,9 @@
 
 ## 좋았던 것
 - 경험(고통...레거시...)에서 비롯된 ES6 이전 문법과 이후 문법에 대해 깊게 살펴주고, 개선된 ES6 문법이 어떤 부분에서 생산성을 올려주는 지 자세히 공유해줬다.
-- Language History Tracking (Callback 구조, 콜백 지옥, 함수 생성자 내부 함수, Javascript 모듈 패턴, Legacy UI Rendering Strategy - HTML 템플릿을 '', +, 변수 활용해 만드는....."그 방법")
-- 질문 피드백 열심히 해줌.
-- 100번 하면 된다는 마인드를 잘 따라줘서 고마움.
+- Language History Tracking (Callback 동작 방식 - 호출 위임, 콜백 지옥, 함수 생성자와 this, Javascript 모듈 패턴, Legacy UI Rendering Strategy - HTML 템플릿 '', +, 변수 활용해 만드는....."그 방법")
+- 질문 피드백 열심히 해준듯.
+- 100번 하면 된다는 마인드셋 가지고 잘 참아줘서 고마움.
 
 ## 아쉬웠던 것
 - 컨디션 관리 (이거 왜 항상 아쉬움..?)
@@ -27,6 +27,6 @@
 #### 2021.04.17 토 - 
 #### 2021.04.18 일 - 
 #### 2021.04.19 월 - Promise, Debugging
-#### 2021.04.20 화 - ES6 회고록 작성
+#### 2021.04.20 화 - ES6 회고록 작성, Front End Development Libraries 예정
 
 ## Refs (Github 파일 이름 바꾸면 링크 깨질 수 있음)
