@@ -5,7 +5,7 @@
 - Method Chaining
 - var, let, const difference
 - Hoisting
-- Camel Case / Pascal Case
+- camelCase / Pascal Case / kebab-case
 - Ternary Operator
 - JS Shorthand
 - JS Object Handling
