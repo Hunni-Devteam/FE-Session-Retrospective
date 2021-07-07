@@ -52,12 +52,29 @@ JS 트리인 ReactDOM을 비교하기 때문에
 
 클래스 컴포넌트는 React 초기부터 존재했고, 지금도 여러 레거시 코드로 찾아볼 수 있습니다.
 
-컴포넌트는 생명 주기를 가집니다.
-컴포넌트의 첫 렌더링 / State, Props 변경으로 인한 컴포넌트 업데이트 / 컴포넌트 제거 과정을 통틀어
-컴포넌트 라이프사이클이라고 부릅니다.
+Component 클래스를 구현하게 되고, 기본적으로 render/lifecycle method, state 속성을 지원하며,
+생성자에서 컴포넌트 외부 상태인 props 를 주입받을 수 있습니다.
 
-대표적으로 아래 3개의 라이프사이클 메서드가 사용됩니다.
+클래스 컴포넌트의 state는 인스턴스 내부의 상태입니다.
+setState 메서드를 사용해 새 값을 할당하고 렌더링을 실행할 수 있습니다.
+
+또한, 컴포넌트는 생명 주기를 가집니다.
+
+컴포넌트의 첫 렌더링 / State, Props 변경으로 인한 컴포넌트 업데이트 / 컴포넌트 제거 등을 통틀어
+컴포넌트 라이프사이클이라고 부르며,
+
+실행 시점에 라이프사이클 메서드를 활용해 동작을 추가할 수 있습니다.
+
+대표적으로 아래 3개의 라이프사이클 메서드가 사용됩니다:
 `Component[Will/Did]Mount/ Component[Will/Did]Update / Component[Will/Did]Destroy`
+
+## Class Component - this binding issue
+
+클래스 컴포넌트에서 특정 버튼의 이벤트를 통해 state를 갱신하기 위해 `this.setState` 를 실행하려 할 때,
+
+## Class Component - props mutation issue in async function
+
+비동기 함수에서 this.props 를 직접 참조할 경우, setState
 
 ## Functional Component / Hooks
 
@@ -66,7 +83,7 @@ Functional Component는 기본적으로 상태를 가지지 못하며,
 
 그러나, React 16에서 Hooks가 추가되면서
 
-상태 관리와 라이프사이클 메서드 등을 기존 클래스 컴포넌트의 방식보다 훨씬 간결하게 사용할 수 있게 되었습니다.
+상태 관리와 라이프사이클 메서드 등을 기존 클래스 컴포넌트에서 사용하던 방식보다 훨씬 간결하게 사용할 수 있게 되었습니다.
 
 주로 사용되는 훅은 `useState`, `useEffect`, `useMemo`, `useCallback` 으로,
 각각 함수형 컴포넌트 내의 상태 관리, 라이프사이클 훅, 변수 재선언 방지, 함수 재선언 방지 기능을 제공합니다.
@@ -83,6 +100,21 @@ Functional Component의 렌더링을 실행하게 될 React 라이브러리 내�
 
 이러한 구현 상의 특징에 따라, Hooks 는 절대 순서와 실행 갯수가 변경되어서는 안 되며,
 이는 React 디버깅 과정에서 흔히 발견되는 실수 중 하나입니다.
+
+## Rendering Strategy
+
+기본적으로, 클래스/함수형 컴포넌트 모두 props 변경 여부에 상관 없이 무조건 렌더링을 실행합니다....
+
+클래스 컴포넌트의 경우 최적화를 위해 state, props의 변경점을 체크하고 렌더링 여부를 결정할 수 있는 `shouldComponentRender` 메서드를 직접 작성할 수 있습니다.
+
+함수형 컴포넌트의 경우 아래서 언급할 `React.memo(Compoennt, equalityFn)` 함수의 두 번째 파라미터를 조작하는 것으로 해결할 수 있습니다.
+
+보통의 경우 props 내의 모든 속성이 변경되지 않았을 때에만 렌더링을 방지해도 충분한데,
+
+클래스 컴포넌트의 경우 Component 대신 PureComponent 클래스를 상속받는 것으로 해결할 수 있고,
+
+함수형 컴포넌트의 경우, 고차 함수인 React.memo 를 사용해 직접 작성한 컴포넌트를 감싸주는 것으로 해결할 수 있습니다.
+
 
 # What i did
 
