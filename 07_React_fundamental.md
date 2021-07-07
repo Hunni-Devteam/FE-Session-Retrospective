@@ -87,7 +87,14 @@ this 의 컨텍스트(Component 인스턴스)가 유지되지 않는 현상을 �
 
 ## Class Component - props mutation issue in async function
 
-비동기 함수에서 this.props 를 직접 참조할 경우, setState
+비동기 함수에서 `this.props` 를 직접 참조할 경우, 비동기 함수의 실제 실행 시점의 props 값이 변조될 수 있습니다.
+
+이는 render 메서드에서 props의 값을 변수에 모두 할당하고, 메서드 역시 render 시점에 모두 선언하는 것으로 해결할 수 있는데,
+
+이 방식을 채용할 경우 모든 커스텀 메서드가 render 스코프 안에서 선언되게 되므로
+render 를 제외한 메서드가 필요하지 않게 되는 딜레마를 마주하게 됩니다.
+
+함수형 컴포넌트는 매 렌더링 시마다 위 패턴과 유사하게 모든 함수를 재생성하게 되므로, props 변조에 대응할 필요가 없습니다!
 
 ## Functional Component / Hooks
 
@@ -127,7 +134,6 @@ Functional Component의 렌더링을 실행하게 될 React 라이브러리 내�
 클래스 컴포넌트의 경우 Component 대신 PureComponent 클래스를 상속받는 것으로 해결할 수 있고,
 
 함수형 컴포넌트의 경우, 고차 함수인 React.memo 를 사용해 직접 작성한 컴포넌트를 감싸주는 것으로 해결할 수 있습니다.
-
 
 # What i did
 
@@ -176,7 +182,6 @@ Functional Component의 렌더링을 실행하게 될 React 라이브러리 내�
 ### 2021.07.06 - StudyArchive 초안 기획
 ### 2021.07.07 - 강훈 멘탈 파괴 + React Session 회고
   
-  
 # Next Curriculum
 
 Redux - 전역 상태 관리 도구
@@ -188,3 +193,11 @@ Redux - 전역 상태 관리 도구
 
 Education 탭을 야무지게 채워봅시다.
 ... 나머지 (Projects / Skills / 등등..)는 지금 채우기가 쉽지 않을 듯 합니다...
+
+# 참고하면 좋은 글들
+
+클래스/함수형 컴포넌트 차이
+https://overreacted.io/ko/how-are-function-components-different-from-classes/
+
+React Hooks의 동작 방식
+https://hewonjeong.github.io/deep-dive-how-do-react-hooks-really-work-ko/
