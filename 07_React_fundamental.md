@@ -25,10 +25,10 @@
 React는 기존 DOM API를 사용한 UI 조정, 엘리먼트 추가 및 삭제 과정을
 데이터의 변경(state, props)에 반응하도록 도와 주며, 이를 통해 다양한 DOM 동작을 제어할 수 있습니다.
 
-React는 UI 요소의 집합을 '컴포넌트'로 표현하며, 이는 React Element의 집합입니다.
-React Element 는 HTML과 유사한 문법을 지닌 `JSX` 마크업으로 구현할 수 있습니다.
+React는 UI 요소의 집합을 `컴포넌트`로 표현하며, 이 UI 요소는 React Element로 표현됩니다.
+React Element 는 HTML과 유사한 문법을 지닌 `JSX` 마크업을 사용해 구현할 수 있습니다.
 
--
+--------- 
 
 위에서 언급한 컴포넌트의 집합(트리)이 ReactDOM 이고,
 ReactDOM은 state, props 변경을 감지해
@@ -43,18 +43,46 @@ JS 트리인 ReactDOM을 비교하기 때문에
 
 ## State / Props
 
-State 는 컴포넌트 내부의 상태, Props 는 컴포넌트 외부에서 주입받는 데이터입니다.
+`State`는 컴포넌트 내부의 상태, `Props`는 컴포넌트 외부에서 주입받는 데이터입니다.
 
-State 를 조작하면 React는 리렌더링을 실행하며(컴포넌트 트리를 다시 그리며),
-각 컴포넌트의 State/Props 변경 여부를 확인하고, 렌더링이 필요할 경우 JSX 템플릿을 다시 생성합니다.
+`State`를 조작하면 React는 리렌더링을 실행하며(컴포넌트 트리를 다시 그리며),
+각 컴포넌트의 `State/Props` 변경 여부를 확인하고, 렌더링이 필요할 경우 JSX 템플릿을 다시 생성합니다.
 
 ## Class Component
 
 클래스 컴포넌트는 React 초기부터 존재했고, 지금도 여러 레거시 코드로 찾아볼 수 있습니다.
 
-컴포넌트의 첫 렌더링 / state, props 변경으로 인한 컴포넌트 재 렌더링 / 컴포넌트 제거 과정을 통틀어
+컴포넌트는 생명 주기를 가집니다.
+컴포넌트의 첫 렌더링 / State, Props 변경으로 인한 컴포넌트 업데이트 / 컴포넌트 제거 과정을 통틀어
+컴포넌트 라이프사이클이라고 부릅니다.
 
+대표적으로 아래 3개의 라이프사이클 메서드가 사용됩니다.
+`Component[Will/Did]Mount/ Component[Will/Did]Update / Component[Will/Did]Destroy`
 
+## Functional Component / Hooks
+
+Functional Component는 기본적으로 상태를 가지지 못하며,
+오직 JSX를 리턴하는 렌더 함수와 같은 동작을 합니다(SFC).
+
+그러나, React 16에서 Hooks가 추가되면서
+
+상태 관리와 라이프사이클 메서드 등을 기존 클래스 컴포넌트의 방식보다 훨씬 간결하게 사용할 수 있게 되었습니다.
+
+주로 사용되는 훅은 `useState`, `useEffect`, `useMemo`, `useCallback` 으로,
+각각 함수형 컴포넌트 내의 상태 관리, 라이프사이클 훅, 변수 재선언 방지, 함수 재선언 방지 기능을 제공합니다.
+
+이는 자바스크립트의 동작 중 하나인 `클로저`를 통해 구현되고,
+함수 내부의 변수가 외부 스코프로 리턴되었을 경우 메모리에서 해제되지 않는 것을 활용해
+
+Hooks 내부의 값 (state, callback, deps 등...)을
+Functional Component의 렌더링을 실행하게 될 React 라이브러리 내부에 붙여 둡니다.
+
+매 렌더링마다 붙여 둔 값과 현재 값을 비교해 렌더링 실행 여부를 결정합니다.
+
+=> React 라이브러리에서 Hook 목록을 저장하는 배열을 가지고 있게 됩니다.
+
+이러한 구현 상의 특징에 따라, Hooks 는 절대 순서와 실행 갯수가 변경되어서는 안 되며,
+이는 React 디버깅 과정에서 흔히 발견되는 실수 중 하나입니다.
 
 # What i did
 
