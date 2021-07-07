@@ -70,7 +70,20 @@ setState 메서드를 사용해 새 값을 할당하고 렌더링을 실행할 �
 
 ## Class Component - this binding issue
 
-클래스 컴포넌트에서 특정 버튼의 이벤트를 통해 state를 갱신하기 위해 `this.setState` 를 실행하려 할 때,
+클래스 컴포넌트에서 특정 버튼의 이벤트를 통해 state를 갱신하기 위해 `handleClick` 메서드에서 `this.setState` 를 실행하려 할 때,
+this 의 컨텍스트(Component 인스턴스)가 유지되지 않는 현상을 발견할 수 있습니다.
+
+이는 render 메서드에서 JSX가 넘겨받는 핸들러 함수가 
+
+`this.handleClick()` 형태로 직접 실행되는 것이 아닌 `this.handleClick` 메서드의 참조만을 넘겨받기 때문입니다.
+
+호출 시점의 `this.handleClick` 은 익명 함수이고, 실행 주체가 이벤트 핸들러를 실행해주는 Web API로 변경되므로
+
+`this` 바인딩을 직접 해주지 않을 경우 `setState` 메서드를 `this` 에서 찾지 못하는 문제가 발생하게 됩니다.
+
+해결 방안:
+1. 메서드 선언 시 Arrow function 을 사용해 render() 함수 내에서 사용된 `this.handleClick`의 Lexical this를 Component로 강제
+2. `Function.bind(thisArg)` 를 사용해 메서드의 this 바인딩을 강제
 
 ## Class Component - props mutation issue in async function
 
