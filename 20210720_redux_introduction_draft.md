@@ -104,3 +104,17 @@ class store {
 브라우저에서 마우스 이동할 때 특정 함수를 실행하고 싶으면 addEventListener 를 쓰는 것처럼
 
 Redux Action 실행됬을때 특정 함수를 실행하고 싶으면 store.subscribe 로 넘기면 됨
+
+Reducer 랑 완전 똑같이 state, action 받고 if (action.type === 'USER_LOGIN') 로 분기 치는데
+
+Middleware 에선 Reducer 처럼 state 갱신할 의무도 없고, 비동기 처리만 해도 괜찮고... 무슨 짓을 해도 상관 없음.
+
+```js
+store.subscribe(() => {
+  const state = store.getState();
+  const action = store.dispatchedActions[store.dispatchedActions.length-1];
+  
+  // 요런 느낌..?
+  if (action.type === 'LOGIN') 비동기 처리...
+});
+```
