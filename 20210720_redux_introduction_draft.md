@@ -118,3 +118,22 @@ store.subscribe(() => {
   if (action.type === 'LOGIN') 비동기 처리...
 });
 ```
+
+# 20210721 Redux Core Overview
+
+## Middleware !== Store.Subscribe
+
+https://github.com/reduxjs/redux/blob/master/src/createStore.ts
+https://github.com/reduxjs/redux/blob/master/src/applyMiddleware.ts
+
+store 인스턴스 생성 =>
+default state, reducer 주입 => 
+enhancer 에서
+applied middlewares 받아서 주입
+=>
+미들웨어가 부착된 Store 인스턴스 반환(dispatch 오버라이드)
+
+미들웨어는 store 생성 시점에
+store.getState API를 주입받아야 하니 런타임에 추가하는 게 불가능하고
+
+subscriberFn 은 dispatch 될 때마다 nextSubscribers 에 머 들어왔는지 체크하고 실행하니 런타임에도 추가가 가능하다 ..
