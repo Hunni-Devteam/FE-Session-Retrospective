@@ -65,7 +65,7 @@ setState 메서드를 사용해 새 값을 할당하고 렌더링을 실행할 �
 실행 시점에 라이프사이클 메서드를 활용해 동작을 추가할 수 있습니다.
 
 대표적으로 아래 3개의 라이프사이클 메서드가 사용됩니다:
-`Component[Will/Did]Mount/ Component[Will/Did]Update / Component[Will/Did]Destroy`
+`ComponentDidMount/ ComponentDidUpdate / ComponentWillUnmount`
 
 ## Class Component - this binding issue
 
